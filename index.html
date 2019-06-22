@@ -12,11 +12,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
+    <link href="fonts/css/all.css" rel="stylesheet">
     
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Font Awesome JS -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
 
@@ -24,11 +21,153 @@
 
     <div class="wrapper">
         <!-- Sidebar Holder -->
-        <nav id="sidebar">
+        <nav id="sidebar" class="sidebar">
             <div class="sidebar-header">
                 <img src="images/vuesax.png" alt="logo" title="Vuesax" /><span>Vuesax</span><span class="logo-oval"><img src="images/Oval.png" /></span>
             </div>
-            
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-tachometer-slow"></i>Dashboard</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Dashboard 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Dashbaord 2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active"><a href="#"><i class="fa fa-tachometer"></i>Analytics</a></li>
+                <li><a href="#"><i class="far fa-shopping-cart"></i>E-Commerce</a></li>
+                <a href="#" class="list-group">APP</a>
+                <li><a href="#"><i class="far fa-envelope"></i>Email</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>Chat</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>Todo</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>Calendar</a></li>
+                <a href="#" class="list-group">UI</a>
+                <li><a href="#gridSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-tachometer-slow"></i>Grid</a>
+                    <ul class="collapse list-unstyled" id="gridSubmenu">
+                        <li>
+                            <a href="#">Grid 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Grid 2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#colorSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-tachometer-slow"></i>colors</a>
+                    <ul class="collapse list-unstyled" id="colorSubmenu">
+                        <li>
+                            <a href="#">Color 1</a>
+                        </li>
+                        <li>
+                            <a href="#">color 2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#cardSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-tachometer-slow"></i>Cards</a>
+                    <ul class="collapse list-unstyled" id="cardSubmenu">
+                        <li>
+                            <a href="#">Card 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Card 2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#tableSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-tachometer-slow"></i>Table</a>
+                    <ul class="collapse list-unstyled" id="tableSubmenu">
+                        <li>
+                            <a href="#">Table 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Table 2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="far fa-envelope"></i>Components</a></li>
+                <a href="#" class="list-group">FORMS</a>
+                <li><a href="#feSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-tachometer-slow"></i>Form Elements</a>
+                    <ul class="collapse list-unstyled" id="feSubmenu">
+                        <li>
+                            <a href="#">Element 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Element 2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="far fa-envelope"></i>Form Layouts</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>Form Wizard</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>Form Validation</a></li>
+                <a href="#" class="list-group">PAGES</a>
+                <li><a href="#authSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-tachometer-slow"></i>Authentication</a>
+                    <ul class="collapse list-unstyled" id="authSubmenu">
+                        <li>
+                            <a href="#">Auth 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Auth 2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="far fa-envelope"></i>Coming Soon</a></li>
+                <li><a href="#errorSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-tachometer-slow"></i>Error</a>
+                    <ul class="collapse list-unstyled" id="erroSubmenu">
+                        <li>
+                            <a href="#">403</a>
+                        </li>
+                        <li>
+                            <a href="#">404</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="far fa-envelope"></i>Maintenance</a></li>
+                <li><a href="#"><i class="far fa-user"></i>Profile</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>FAQ</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>Knowledge Base</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>Search</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>Invoice</a></li>
+                <a href="#" class="list-group">CHARTS &amp; MAPS</a>
+                <li><a href="#chartSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-tachometer-slow"></i>Charts</a>
+                    <ul class="collapse list-unstyled" id="chartSubmenu">
+                        <li>
+                            <a href="#">Chart 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Chart 2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="far fa-envelope"></i>Google Maps</a></li>
+                <a href="#" class="list-group">EXTENSIONSS</a>
+                <li><a href="#selectSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-tachometer-slow"></i>Select</a>
+                    <ul class="collapse list-unstyled" id="extSubmenu">
+                        <li>
+                            <a href="#">Select 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Select 2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="far fa-envelope"></i>Quill eidtor</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>Drag &amp; Drop</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>Datepicker</a></li>
+                <a href="#" class="list-group">OTHERS</a>
+                <li><a href="#menulevelSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-menu"></i>Menu Levels</a>
+                    <ul class="collapse list-unstyled" id="menulevelSubmenu">
+                        <li>
+                            <a href="#">Level 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Level 2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="far fa-envelope"></i>Disabled Menu</a></li>
+                
+            </ul>
         </nav>
 
         <!-- Page Content Holder -->
