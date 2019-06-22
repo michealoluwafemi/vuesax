@@ -130,7 +130,7 @@ a[data-toggle="collapse"] {
     min-height: 100vh;
     transition: all 0.3s;
 }
-.container .desc span::before {
+.desc span::before {
     content: "\226B";
     color: #000;
     font-weight: bold;
@@ -152,8 +152,27 @@ a[data-toggle="collapse"] {
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
     border-radius: 4px;
 }
+.filter-form {
+    background: #FFF;
+    border: 1px solid #BDBDBD;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 4px;
+    margin-top: 25px;
+    padding: 20px 25px;
+}
+.filter-form label {
+    width: 100%;
+}
+.filter-form .radio-span {
+    margin-left: 10px;
+}
 .search-product {
-    margin-top: 20px;
+    margin-top: 10px;
+}
+.line {
+    height: 1px;
+    margin: 25px 0px;
+    background: #D6D6D6;
 }
 .search-product .form-input {
     width: 100%;
