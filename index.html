@@ -212,21 +212,185 @@
             <p class="desc">Card Actions | <i style="color: #7E72F2;" class="fa fa-home"></i><span style="color: #7E72F2;">e-commerce</span> <span>Electronics</span></p>
 
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <span class="title">Filters</span>
-                    <div class="filter-form">
-                        <label for="range">Multi Range</label>
-                        <input type="radio" name="range" class="radio" /><span class="radio-span">$10</span><br>
-                        <input type="radio" name="range" /><span class="radio-span">$10-$100</span><br>
-                        <input type="radio" name="range" /><span class="radio-span">$100-$300</span><br>
-                        <input type="radio" name="range" /><span class="radio-span">$500</span><br>
-                        <input type="radio" name="range" checked/><span class="radio-span">All</span>
+                    <form class="filter-form">
+                        <h6>Multi Range</h6>
+                        <div class="custom-control custom-radio">
+                            <input class="custom-control-input" type="radio" id="range1" name="range">
+                            <label class="custom-control-label" for="range1">
+                                $10
+                            </label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input class="custom-control-input" type="radio" id="range2" name="range">
+                            <label class="custom-control-label" for="range2">
+                                $10-$100
+                            </label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input class="custom-control-input" type="radio" id="range3" name="range">
+                            <label class="custom-control-label" for="range3">
+                                $100-350
+                            </label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input class="custom-control-input" type="radio" id="range2" name="range">
+                            <label class="custom-control-label" for="range2">
+                                $500
+                            </label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input class="custom-control-input" type="radio" id="range5" name="range" checked>
+                            <label class="custom-control-label" for="range5">
+                                All
+                            </label>
+                        </div>
                         <div class="line"></div>
-                        <label for="slider">Slider<span>199-4098</span></label>
+                        <h6 for="slider">Slider<span> 199-4098</span></h6>
+                        <input id="multi1" class="multi-range" type="range" />
                         <div class="line"></div>
+                        <h6>Category</h6>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="cat1" name="category">
+                            <label class="custom-control-label" for="cat1">Cell Phones <span>1920</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="cat2" name="category">
+                            <label class="custom-control-label" for="cat2">Computers and Tablets <span>1820</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="cat3" name="category">
+                            <label class="custom-control-label" for="cat3">Cell Accessories <span>462</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="cat4" name="category">
+                            <label class="custom-control-label" for="cat4">Appliances <span>6556</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="cat5" name="category">
+                            <label class="custom-control-label" for="cat5">Audio <span>120</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="cat6" name="category">
+                            <label class="custom-control-label" for="cat6">iPhone Accessories <span>320</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="cat7" name="category">
+                            <label class="custom-control-label" for="cat7">Cameras and Camcoders <span>120</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="cat8" name="category">
+                            <label class="custom-control-label" for="cat8">iPhone Cases &amp; Clips <span>52</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="cat9" name="category">
+                            <label class="custom-control-label" for="cat9">TV &amp; Home Theatre <span>55</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="cat0" name="category">
+                            <label class="custom-control-label" for="cat0">Small Kitchen Appliances <span>10</span></label>
+                        </div>
+                        <div class="line"></div>
+                        <h6>Brand</h6>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="brand1" name="brand">
+                            <label class="custom-control-label" for="brand1">Insigi <span>220</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="brand2" name="brand">
+                            <label class="custom-control-label" for="brand2">Samsung <span>120</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="brand3" name="brand">
+                            <label class="custom-control-label" for="brand3">Apple <span>320</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="brand4" name="brand">
+                            <label class="custom-control-label" for="brand4">HP <span>32</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="brand5" name="brand">
+                            <label class="custom-control-label" for="brand5">Sony <span>520</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="brand6" name="brand">
+                            <label class="custom-control-label" for="brand6">Metra <span>55</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="brand7" name="brand">
+                            <label class="custom-control-label" for="brand7">Dyne <span>120</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="brand8" name="brand">
+                            <label class="custom-control-label" for="brand8">LG <span>98</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="brand9" name="brand">
+                            <label class="custom-control-label" for="brand9">Canon <span>99</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="brand0" name="brand">
+                            <label class="custom-control-label" for="brand0">Speck <span>575</span></label>
+                        </div>
+                        <div class="line"></div>
+                        <h6>Rating</h6>
+                        <div>
+                            <label class="custom-control-label">
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star rate"></i> &amp; Up 
+                                <span>8500</span>
+                            </label>
+                        </div>
+                        <div>
+                            <label class="custom-control-label"> 
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star urate"></i> &amp; Up 
+                                <span>3250</span>
+                            </label>
+                        </div>
+                        <div>
+                            <label class="custom-control-label"> 
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star urate"></i>
+                                <i class="form-star far fa-star urate"></i> &amp; Up 
+                                <span>1120</span>
+                            </label>
+                        </div>
+                        <div>
+                            <label class="custom-control-label"> 
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star urate"></i>
+                                <i class="form-star far fa-star urate"></i>
+                                <i class="form-star far fa-star urate"></i> &amp; Up 
+                                <span>3320</span>
+                            </label>
+                        </div>
+                        <div>
+                            <label class="custom-control-label"> 
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star urate"></i>
+                                <i class="form-star far fa-star urate"></i>
+                                <i class="form-star far fa-star urate"></i>
+                                <i class="form-star far fa-star urate"></i> &amp; Up 
+                                <span>5452</span>
+                            </label>
+                        </div>
+                    </form>
+                    <div style="margin-top:30px;">
+                        <button class="btn btn-clear">CLEAR ALL FILTERS</button>
                     </div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-8">
                     <div class="product-top">
                         <span class="title">7628 Results found in 5ms</span>
                         <div>
