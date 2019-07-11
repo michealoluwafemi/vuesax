@@ -48,8 +48,8 @@ a, a:hover, a:focus {
 
 
 #sidebar {
-    min-width: 250px;
-    max-width: 250px;
+    min-width: 220px;
+    max-width: 220px;
     background: #FFF;
     color: #2C2C2C;
     transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665);
@@ -67,7 +67,7 @@ a, a:hover, a:focus {
 }
 .sidebar-header .logo-oval {
     position: absolute;
-    left: 200px;
+    left: 170px;
 }
 #sidebar.active {
     margin-left: -250px;
@@ -173,6 +173,17 @@ a[data-toggle="collapse"] {
     width: 100%;
     color: #999;
 }
+
+.btn-primary, .str .right {
+    background: #6F64F8;
+}
+
+.btn-small {
+    border-radius: 2px;
+    height: 30px;
+    width: 60px;
+}
+
 .btn-clear {
     width: 100%;
     height: 56px;
@@ -245,6 +256,48 @@ a[data-toggle="collapse"] {
     margin: 5px auto;
 }
 
+.white-bg {
+    background: #FFF;
+}
+
+.row .product-item {
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row .product {
+    border-radius: 8px;
+    background: #FFF;
+}
+
+div .price {
+    float: right;
+}
+
+.col-md-4 .str {
+    display: flex;
+}
+
+.str .left, .str .right {
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.str .left {
+    background: #EDEDED;
+    color: #111;
+    border-bottom-left-radius: 8px;
+}
+
+.str .right {
+    border-bottom-right-radius: 8px;
+    color: #FFF;
+}
 
 /* ---------------------------------------------------
     MEDIAQUERIES
